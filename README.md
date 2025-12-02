@@ -112,13 +112,13 @@ Inventory Level comparison chart
 
 
 File	Description
-Inventory_SupplyChain_Dataset.csv	Complete dataset used for analysis
+Inventory_SupplyChain_Dataset.csv	                    Complete dataset used for analysis
 
-Inventory_SupplyChain_Analysis.pbix	Power BI dashboard file
+Inventory_SupplyChain_Analysis.pbix                   Power BI dashboard file
 
-Report.PNG	Dashboard screenshot for preview
+Report.PNG	                                          Dashboard screenshot for preview
 
-README.md	Project documentation
+README.md	                                            Project documentation
 
 
 🛠️ Tech Stack & Tools
