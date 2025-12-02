@@ -76,6 +76,8 @@ Electronics have the highest inventory, while accessories have the lowest stock 
 
 
 🧩 Dashboard Features
+
+
 ✔️ KPIs on Top Panel
 
 Warehouse Utilization %
