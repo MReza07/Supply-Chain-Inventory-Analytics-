@@ -4,6 +4,8 @@ This report analyzes inventory and supply chain metrics, including warehouse uti
 
 
 📦 Inventory & Supply Chain Management Analysis – Power BI Dashboard
+
+
 📘 Project Overview
 
 This Power BI dashboard provides a comprehensive analysis of inventory performance, warehouse utilization, transportation efficiency, and supply chain operations.
@@ -32,6 +34,7 @@ Support data-driven decision making for efficient supply chain operations
 
 
 🚀 Key Insights
+
 🔹 1. Warehouse Utilization – 34.08%
 
 Indicates unused storage capacity; opportunity to optimize warehouse space or consolidate inventory.
@@ -104,6 +107,8 @@ Inventory Level comparison chart
 
 
 📂 Project Files Included
+
+
 File	Description
 Inventory_SupplyChain_Dataset.csv	Complete dataset used for analysis
 Inventory_SupplyChain_Analysis.pbix	Power BI dashboard file
@@ -126,6 +131,7 @@ GitHub – Version control & project hosting
 
 
 📊 DAX Measures Used
+
 Warehouse Utilization = DIVIDE(SUM('Dataset'[Used_Space]), SUM('Dataset'[Total_Capacity]))
 
 Days Sales of Inventory = DIVIDE(AVERAGE('Dataset'[Inventory_Value]), AVERAGE('Dataset'[Daily_Sales]))
@@ -168,6 +174,7 @@ Refresh data & explore interactive dashboard
 👨‍💻 Author
 
 Reazul Repon
+
 Power BI & Data Analytics Enthusiast
 
 SQL | Power BI | Python | Excel
