@@ -1,21 +1,13 @@
-# Supply-Chain-Inventory-Analytics-
-This report analyzes inventory and supply chain metrics, including warehouse utilization (34.08%), days sales of inventory (15.56), and inventory turnover ratio (23.47). ​ It visualizes transportation costs, units sold, lead times, backorders, and inventory levels by region and category, offering insights into operational efficiency and trends. ​
+## 📦 Inventory & Supply Chain Management Analysis – Power BI Dashboard
 
-
-
-📦 Inventory & Supply Chain Management Analysis – Power BI Dashboard
-
-
-📘 Project Overview
+## 📘 Project Overview
 
 This Power BI dashboard provides a comprehensive analysis of inventory performance, warehouse utilization, transportation efficiency, and supply chain operations.
 It is designed for supply chain managers, inventory planners, and operations teams to monitor KPIs, reduce stock risks, and improve fulfillment performance.
 
 The dashboard uses a real-world dataset representing warehouse, inventory, sales, transportation, and backorder activities across multiple regions and product categories.
 
-
-
-🎯 Objectives of the Analysis
+## 🎯 Objectives of the Analysis
 
 Monitor warehouse utilization and storage efficiency
 
@@ -33,7 +25,7 @@ Support data-driven decision making for efficient supply chain operations
 
 
 
-🚀 Key Insights
+## 🚀 Key Insights
 
 🔹 1. Warehouse Utilization – 34.08%
 
@@ -75,7 +67,7 @@ Electronics have the highest inventory, while accessories have the lowest stock 
 
 
 
-🧩 Dashboard Features
+## 🧩 Dashboard Features
 
 
 ✔️ KPIs on Top Panel
@@ -108,22 +100,33 @@ Inventory Level comparison chart
 
 
 
-📂 Project Files Included
+## 📂 Project Structure
+
+Supply-Chain-Inventory-Analytics
+│
+├── 📄 Dataset/
+
+│   └── Inventory_SupplyChain_Dataset.csv
+│
+├── 📄 Report/
+
+│   └── Supply Chain & Inventory Analytics.pbix
+│
+├── 📄 Screenshots/
+
+│   ├── Report.PNG
+
+│   ├── KPI.PNG
+
+│   ├── Transportation Cost By Region & Category.PNG
+
+│   ├── Warehouse_Utilization.PNG
+
+│
+└── 📄 README.md
 
 
-File	Description
-
-
-Inventory_SupplyChain_Dataset.csv	 -                   Complete dataset used for analysis
-
-Inventory_SupplyChain_Analysis.pbix   -                Power BI dashboard file
-
-Report.PNG	   -                                       Dashboard screenshot for preview
-
-README.md	  -                                          Project documentation
-
-
-🛠️ Tech Stack & Tools
+## 🛠️ Tech Stack & Tools
 
 Power BI – Data modeling & dashboard development
 
@@ -137,7 +140,7 @@ GitHub – Version control & project hosting
 
 
 
-📊 DAX Measures Used
+## 📊 DAX Measures Used
 
 Warehouse Utilization = DIVIDE(SUM('Dataset'[Used_Space]), SUM('Dataset'[Total_Capacity]))
 
@@ -147,7 +150,7 @@ Inventory Turnover Ratio = DIVIDE(SUM('Dataset'[COGS]), AVERAGE('Dataset'[Averag
 
 
 
-🧠 Business Impact
+## 🧠 Business Impact
 
 This dashboard helps organizations:
 
@@ -166,7 +169,7 @@ Reduce lead time variances across categories
 
 
 
-📄 How to Use This Project
+## 📄 How to Use This Project
 
 Download the PBIX file
 
@@ -176,9 +179,14 @@ Connect your own inventory/supply chain dataset (optional)
 
 Refresh data & explore interactive dashboard
 
+## 📜 License
+
+This project is distributed under the MIT License.
 
 
-👨‍💻 Author
+
+
+## 👨‍💻 Author
 
 Reazul Repon
 
