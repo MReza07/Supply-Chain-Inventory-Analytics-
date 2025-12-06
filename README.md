@@ -1,4 +1,4 @@
-📦 Inventory & Supply Chain Management Analysis – Power BI Dashboard
+## 📦 Inventory & Supply Chain Management Analysis – Power BI Dashboard
 
 ## 📘 Project Overview
 
@@ -105,15 +105,20 @@ Inventory Level comparison chart
 Supply-Chain-Inventory-Analytics
 
 │
+
 ├── 📄 Dataset/
 
 │   └── Inventory_SupplyChain_Dataset.csv
+
 │
+
 ├── 📄 Report/
 
 
 │   └── Supply Chain & Inventory Analytics.pbix
+
 │
+
 ├── 📄 Screenshots/
 
 
@@ -126,6 +131,7 @@ Supply-Chain-Inventory-Analytics
 │   ├── Warehouse_Utilization.PNG
 
 │
+
 └── 📄 README.md
 
 
